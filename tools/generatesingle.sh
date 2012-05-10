@@ -19,6 +19,8 @@ OUTPUTNAME="$1.$2.$3.$4"
 
 if [ -z "$5" ]; then
   OUTPUTFOLDER=${BASEFOLDER}/
+else
+  OUTPUTFOLDER=$5
 fi
 
 if [ ! -d "${OUTPUTFOLDER}" ]; then
