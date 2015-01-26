@@ -9,7 +9,7 @@ BASEFOLDER=`pwd`;
 popd  > /dev/null
 BASEFOLDER=`dirname $BASEFOLDER`
 
-TYPES=('accommodation' 'amenity' 'barrier' 'education' 'food' 'health' 'landuse' 'money' 'place_of_worship' 'poi' 'power' 'shopping' 'sport' 'tourist' 'transport' 'water')
+TYPES=('accommodation' 'amenity' 'barrier' 'education' 'food' 'health' 'landuse' 'money' 'place_of_worship' 'poi' 'power' 'shopping' 'sport' 'tourist' 'transport' 'water' 'forest' 'landcover' 'landusing')
 
 SVGFOLDER=${BASEFOLDER}/svg/
 OUTPUTFOLDER=${BASEFOLDER}/gallery/
